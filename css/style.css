@@ -61,6 +61,7 @@ nav {
 .explore-container-plus {
   color: #ffe500;
 }
+
 .explore-logo-container {
   width: 10px;
   height: 10px;
@@ -75,6 +76,43 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header .search {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+header .search .search-container {
+  width: 375px;
+  height: 36px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+  /* padding: 0 16px; */
+  display: flex;
+}
+
+header .search .search-container input { 
+  width: calc(100% - 32px);
+  padding: 16px;
+  outline: none;
+  border: none;
+}
+
+header .search .search-container button {
+  width: 36px;
+  height: 100%;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
 }
 
 nav {
