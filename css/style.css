@@ -252,8 +252,154 @@ nav ul li a {
 
 /* ---------------- SECTION 2 STYLING STARTS ---------------- */
 
+.container {
+  background-color: #f0f0f0;
+  padding: 8px 8px;
+} 
+
+.section-2-container {
+  margin-top: 8px;
+  height: 280px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/a13f40c2982b47d7.jpg?q=50");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ---------------- SECTION 2 STYLING ENDS ---------------- */
+
+/* ---------------- SECTION 3 STYLING STARTS ---------------- */
+
+.container-3 {
+  background-color:  #f0f0f0;
+  padding: 0 8px;
+  /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%); */
+}
+
+.section-3-container {
+  /* margin-top: 8px; */
+  height: 122px;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/2000/2000/image/8d8f584b6e0ddb5f.jpg?q=50");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ---------------- SECTION 4 STYLING STARTS ---------------- */
+
+.section-4-container {
+  /* margin-top: 8px; */
+  height: 362px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-4-offers {
+  width: 230px;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-4-offers-viewall {
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-4-offers-viewall button {
+  margin-top: 24px;
+  height: 40px;
+  background-color: var(--main-bg-color);
+  color: white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* Section 4 Scroll Items Styling */
+
+.section-4-list {
+  height: 100%;
+  width: calc(100% - 230);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-4-item {
+  /* width: 232px;
+  height: 100px; */
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4-item img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.section-4-item-head {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-4-item-price {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+
+.section-4-item-explore {
+  opacity: 0.6;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  /* color: #388e3c; */
+}
+
+/* ------------ Section 5 Styling ------------ */
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .section-5 img {
+  width: 33%;
+} */
+
+.section-5 .img1 {
+  width: 413.238px;
+  margin-right: 8px;
+}
+
+.section-5 .img2 {
+  width: 413.238px;
+  margin: 0 4px;
+}
+
+.section-5 .img3 {
+  width: 413.238px;
+  margin-left: 8px;
+}
 
 footer {
+  margin-top: 10px;
   height: 12vh;
   background-color: var(--main-footer-color);
   color: white;
